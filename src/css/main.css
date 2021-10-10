@@ -7,7 +7,7 @@
 
 /* @layer base { */
 .sb-component-badge {
-  @apply p-4;
+  @apply border;
 }
 /* } */
 /* Examples of overriding CSS */
