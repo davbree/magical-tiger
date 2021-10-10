@@ -13,4 +13,4 @@ fields:
     description: The text in the badge
   - type: boolean
     name: warning
-    label: Add warning icon?
+    label: Add warningaa icon?
