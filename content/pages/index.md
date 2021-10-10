@@ -201,7 +201,7 @@ sections:
     badge:
       elementId: ''
       label: lorem-ipsum
-      warning: false
+      warning: true
     title: About us
     subtitle: Meet the team
     actions: []
