@@ -3,55 +3,6 @@ title: Home
 layout: PageLayout
 sections:
   - elementId: ''
-    colors: colors-a
-    width: wide
-    height: tall
-    topGap: medium
-    bottomGap: medium
-    contentWidth: large
-    contentAlignHoriz: left
-    contentAlignVert: middle
-    textAlign: left
-    variant: variant-a
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: About us
-    subtitle: Meet the team
-    actions: []
-    people:
-      - content/data/person-j1m10zlor.json
-      - content/data/team/desmond-eagle.json
-      - content/data/team/dianne-ameter.json
-      - content/data/team/hilary-ouse.json
-    type: FeaturedPeopleSection
-  - elementId: ''
-    colors: colors-a
-    width: wide
-    height: tall
-    topGap: medium
-    bottomGap: medium
-    contentWidth: large
-    contentAlignHoriz: left
-    contentAlignVert: middle
-    textAlign: left
-    variant: variant-b
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: Latest news
-    subtitle: Featured blog posts section example
-    actions:
-      - type: Button
-        label: View all
-        url: /
-        style: primary
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/blog/post-one.md
-    type: FeaturedPostsSection
-  - elementId: ''
     colors: colors-h
     width: wide
     height: tall
@@ -111,6 +62,55 @@ sections:
       url: /images/contact.png
       altText: Contact form image
     type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: About us
+    subtitle: Meet the team
+    actions: []
+    people:
+      - content/data/person-j1m10zlor.json
+      - content/data/team/desmond-eagle.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/hilary-ouse.json
+    type: FeaturedPeopleSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-b
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: Latest news
+    subtitle: Featured blog posts section example
+    actions:
+      - type: Button
+        label: View all
+        url: /
+        style: primary
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/blog/post-one.md
+    type: FeaturedPostsSection
   - elementId: ''
     colors: colors-a
     width: wide
