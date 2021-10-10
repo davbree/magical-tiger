@@ -10,7 +10,7 @@ export default function Badge(props) {
     if (!label) {
         return null;
     }
-  const text = warning ? `⚠️ ${label}` : label;
+  const text = warning ? `❗ ${label}` : label;
 
     return (
         <div
