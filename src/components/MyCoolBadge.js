@@ -17,7 +17,7 @@ export default function Badge(props) {
             className={classNames('sb-component', 'sb-component-block', 'sb-component-badge', cssClasses)}
             data-sb-field-path={`${annotationPrefix}.label ${annotationPrefix}.elementId#@id`}
         >
-            {label}
+            --{label}
         </div>
     );
 }
