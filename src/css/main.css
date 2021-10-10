@@ -6,8 +6,10 @@
 
 
 /* @layer base { */
-.sb-component-badge {
-  @apply border-2;
+@layer components {
+  .sb-button {
+    @apply border-1;
+  }
 }
 /* } */
 /* Examples of overriding CSS */
