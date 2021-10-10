@@ -6,7 +6,7 @@
 
 @layer components {
     
-.component-badge {
+.sb-component-badge {
     padding: 12px;
     display: none;
 }
