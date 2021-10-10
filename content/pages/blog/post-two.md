@@ -3,12 +3,13 @@ title: Post Title Two
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hugh-saturation.json
-excerpt: |-
-  Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh.
+excerpt: >-
+  Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem
+  semper. Donec sed facilisis nibh...
 thumbImage:
   type: ImageBlock
-  url: '/images/post-3.jpeg'
-  altText: 'Post Image'
+  url: /images/post-3.jpeg
+  altText: Post Image
 bottomSections:
   - type: CtaSection
     variant: variant-b
@@ -18,8 +19,9 @@ bottomSections:
     height: short
     textAlign: left
     title: Let's do this
-    text: |-
-      The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
     actions:
       - type: Button
         label: Get Started
