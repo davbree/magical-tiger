@@ -20,6 +20,7 @@ sections:
     subtitle: Meet the team
     actions: []
     people:
+      - content/data/person-j1m10zlor.json
       - content/data/team/desmond-eagle.json
       - content/data/team/dianne-ameter.json
       - content/data/team/hilary-ouse.json
