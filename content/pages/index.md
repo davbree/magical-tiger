@@ -23,6 +23,15 @@ sections:
         label: View all
         url: /
         style: primary
+      - elementId: ''
+        label: Learn more
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowLeft
+        iconPosition: right
+        style: secondary
+        type: Button
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
