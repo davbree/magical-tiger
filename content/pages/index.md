@@ -17,7 +17,7 @@ sections:
       elementId: ''
       label: lorem-ipsum
     title: My Title!!!
-    subtitle: This Is Subtitle
+    subtitle: This Is Subtitle!
     text: |-
       Aenean eros ipsum, interdum is dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
