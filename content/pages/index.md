@@ -24,7 +24,7 @@ sections:
         url: /
         style: primary
       - elementId: ''
-        label: Learn more
+        label: Learn more aaa
         altText: Learn more
         url: /
         showIcon: false
