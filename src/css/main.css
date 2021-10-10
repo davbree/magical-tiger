@@ -5,11 +5,11 @@
 @import '@stackbit/components/styles/default/style.css';
 
 
-@layer base {
+/* @layer base { */
 .sb-component-badge {
   @apply p-4;
 }
-}
+/* } */
 /* Examples of overriding CSS */
 /*
 @layer base {
