@@ -7,7 +7,7 @@
 
 @layer base {
 .sb-component-badge {
-  @apply m-4;
+  @apply p-4;
 }
 }
 /* Examples of overriding CSS */
