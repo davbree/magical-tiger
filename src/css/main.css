@@ -8,7 +8,7 @@
 /* @layer base { */
 @layer components {
   .sb-button {
-    @apply border-1;
+    @apply border;
   }
 }
 /* } */
