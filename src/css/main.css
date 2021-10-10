@@ -5,7 +5,7 @@
 @import '@stackbit/components/styles/default/style.css';
 
 .component {
-    background-color: ;
+    background-color: #red;
 }
 
 /* Examples of overriding CSS */
