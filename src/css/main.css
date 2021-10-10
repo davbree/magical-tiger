@@ -4,6 +4,10 @@
 
 @import '@stackbit/components/styles/default/style.css';
 
+.component {
+    background-color: ;
+}
+
 /* Examples of overriding CSS */
 /*
 @layer base {
