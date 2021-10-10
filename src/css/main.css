@@ -4,9 +4,7 @@
 
 @import '@stackbit/components/styles/default/style.css';
 
-.component-badge {
-  @apply border-1;
-}
+
 
 /* Examples of overriding CSS */
 /*
