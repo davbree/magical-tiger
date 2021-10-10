@@ -2,7 +2,7 @@ import * as React from 'react';
 import classNames from 'classnames';
 
 export default function Badge(props) {
-    const { label } = props;
+    const { label, warning } = props;
     const cssClasses = props.className || null;
     const cssId = props.elementId || null;
     const annotationPrefix = props.annotationPrefix || '';
