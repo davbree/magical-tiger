@@ -1,0 +1,16 @@
+type: object
+name: Badge
+label: Badge
+fields:
+  - type: string
+    name: elementId
+    label: Element ID
+    description: The unique ID for an HTML element, must not contain whitespace
+    default: ''
+  - type: string
+    name: label
+    label: Label
+    description: The text in the badge
+  - type: boolean
+    name: warning
+    label: Add warning icon?
