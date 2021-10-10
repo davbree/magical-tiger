@@ -5,7 +5,7 @@
 @import '@stackbit/components/styles/default/style.css';
 
 
-@layer components {
+@layer base {
 .sb-component-badge {
   @apply border-1;
 }
