@@ -5,7 +5,7 @@
 @import '@stackbit/components/styles/default/style.css';
 
 .component-badge {
-    background: red !important;
+    padding: 12px;
 }
 
 /* Examples of overriding CSS */
