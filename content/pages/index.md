@@ -16,6 +16,7 @@ sections:
     badge:
       elementId: ''
       label: lorem-ipsum
+      warning: true
     title: Latest news
     subtitle: Featured blog posts section example
     actions:
