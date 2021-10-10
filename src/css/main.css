@@ -4,7 +4,7 @@
 
 @import '@stackbit/components/styles/default/style.css';
 
-.component {
+.component-badge {
     background-color: red !important;
 }
 
