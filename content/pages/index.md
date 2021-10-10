@@ -12,42 +12,6 @@ sections:
     contentAlignHoriz: left
     contentAlignVert: middle
     textAlign: left
-    variant: variant-b
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: Latest news
-    subtitle: Featured blog posts section example
-    actions:
-      - type: Button
-        label: View all
-        url: /
-        style: primary
-      - elementId: ''
-        label: Learn more aaa
-        altText: Learn more
-        url: /
-        showIcon: false
-        icon: arrowLeft
-        iconPosition: right
-        style: secondary
-        type: Button
-    posts:
-      - content/pages/blog/post-three.md
-      - content/pages/blog/post-two.md
-      - content/pages/postlayout-pjj40uq6f.md
-      - content/pages/blog/post-one.md
-    type: FeaturedPostsSection
-  - elementId: ''
-    colors: colors-a
-    width: wide
-    height: tall
-    topGap: medium
-    bottomGap: medium
-    contentWidth: large
-    contentAlignHoriz: left
-    contentAlignVert: middle
-    textAlign: left
     variant: variant-a
     badge:
       elementId: ''
@@ -147,6 +111,42 @@ sections:
       url: /images/contact.png
       altText: Contact form image
     type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-b
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: Latest news
+    subtitle: Featured blog posts section example
+    actions:
+      - type: Button
+        label: View all
+        url: /
+        style: primary
+      - elementId: ''
+        label: Learn more aaa
+        altText: Learn more
+        url: /
+        showIcon: false
+        icon: arrowLeft
+        iconPosition: right
+        style: secondary
+        type: Button
+    posts:
+      - content/pages/blog/post-three.md
+      - content/pages/blog/post-two.md
+      - content/pages/postlayout-pjj40uq6f.md
+      - content/pages/blog/post-one.md
+    type: FeaturedPostsSection
   - elementId: ''
     colors: colors-h
     width: wide
