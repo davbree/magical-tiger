@@ -6,6 +6,7 @@
 
 .component-badge {
     padding: 12px;
+    display: none;
 }
 
 /* Examples of overriding CSS */
