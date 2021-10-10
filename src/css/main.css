@@ -4,12 +4,8 @@
 
 @import '@stackbit/components/styles/default/style.css';
 
-@layer components {
-    
-.sb-component-badge {
-    padding: 12px;
-    display: none;
-}
+.component-badge {
+  @apply border-1;
 }
 
 /* Examples of overriding CSS */
