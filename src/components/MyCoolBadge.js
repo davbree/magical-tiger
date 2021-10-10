@@ -15,7 +15,7 @@ export default function Badge(props) {
     return (
         <div
             id={cssId}
-            className={classNames('px-8', 'mb-4', 'sb-component', 'sb-component-block', 'sb-component-badge', cssClasses)}
+            className={classNames('px-8', 'mb-9', 'sb-component', 'sb-component-block', 'sb-component-badge', cssClasses)}
             data-sb-field-path={`${annotationPrefix}.label ${annotationPrefix}.elementId#@id`}
         >
             {text}
