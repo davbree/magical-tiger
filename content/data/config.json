@@ -28,12 +28,6 @@
                 "altText": ""
             },
             {
-                "type": "Link",
-                "label": "Example",
-                "url": "/example",
-                "altText": ""
-            },
-            {
                 "elementId": "",
                 "label": "Learn more",
                 "altText": "Learn more",
@@ -43,6 +37,12 @@
                 "iconPosition": "right",
                 "style": "link",
                 "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "Example",
+                "url": "/example",
+                "altText": ""
             }
         ],
         "secondaryLinks": [
