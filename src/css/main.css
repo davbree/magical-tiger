@@ -6,7 +6,7 @@
 
 
 @layer components {
-.component-badge {
+.sb-component-badge {
   @apply border-1;
 }
 }
