@@ -134,7 +134,7 @@ sections:
       altText: Contact form image
     type: ContactSection
   - elementId: ''
-    colors: colors-a
+    colors: colors-d
     width: wide
     height: tall
     contentWidth: large
