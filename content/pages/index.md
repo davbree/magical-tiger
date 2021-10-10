@@ -26,6 +26,7 @@ sections:
     posts:
       - content/pages/blog/post-three.md
       - content/pages/blog/post-two.md
+      - content/pages/postlayout-pjj40uq6f.md
       - content/pages/blog/post-one.md
     type: FeaturedPostsSection
   - elementId: ''
