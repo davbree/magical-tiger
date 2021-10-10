@@ -89,6 +89,59 @@ sections:
       altText: Contact form image
     type: ContactSection
   - elementId: ''
+    colors: colors-h
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: Another Title!
+    text: Hello
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    actions:
+      - label: hey
+        url: 'https://www.stackbit.com'
+    type: ContactSection
+  - elementId: ''
     colors: colors-a
     width: wide
     height: tall
@@ -427,57 +480,4 @@ sections:
           label: Sign me up to receive updates
           width: full
       submitLabel: Send Message
-  - elementId: ''
-    colors: colors-h
-    width: wide
-    height: tall
-    contentWidth: large
-    contentAlignHoriz: center
-    contentAlignVert: middle
-    topGap: none
-    bottomGap: none
-    textAlign: left
-    variant: variant-a
-    badge:
-      elementId: ''
-      label: lorem-ipsum
-    title: Another Title!
-    text: Hello
-    form:
-      type: FormBlock
-      idAttr: contact-form
-      action: /.netlify/functions/submission_created
-      destination: ''
-      fields:
-        - type: TextFormControl
-          name: name
-          label: Name
-          placeholder: Your name
-          isRequired: true
-          width: 1/2
-        - type: EmailFormControl
-          name: email
-          label: Email
-          placeholder: Your email
-          isRequired: true
-          width: 1/2
-        - type: TextFormControl
-          name: home-address
-          label: Home address
-          placeholder: Your home address
-          isRequired: true
-          width: full
-        - type: CheckboxFormControl
-          name: updates
-          label: Sign me up to receive updates
-          width: full
-      submitLabel: Send Message
-    feature:
-      type: ImageBlock
-      url: /images/contact.png
-      altText: Contact form image
-    actions:
-      - label: hey
-        url: 'https://www.stackbit.com'
-    type: ContactSection
 ---
